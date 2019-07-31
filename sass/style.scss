@@ -1,0 +1,171 @@
+$font-text: 'Josefin Sans', sans-serif;
+$font-header: 'Yeseva One', cursive;
+$color-text: #fff;
+$color-one: #f6b93b;
+$color-two: #000;
+$color-subtext: #f7f1e3;
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: $font-text;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        
+        li {
+        display: inline-block;
+        margin-right: 36px;
+        
+            a {
+                text-decoration: none;
+                font-size: 16px;                    
+                }
+            }
+
+    
+    .splash {
+        display: flex;
+        min-height: 500px;
+
+        .splash-inner {
+            margin: auto;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .page-subtitle {
+        text-transform: uppercase;
+        font-size: 50px; 
+    }
+
+    .btn {
+        display: inline-block;
+        min-width: 160px;
+        margin: 24px auto 0 auto;
+        padding: 16px;
+        border-radius: 5px;
+        font-family: $font-text;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        border-width: 2px;
+        border-style: solid;
+        background-position: 100% 0;
+        background-size: 300%;
+    }
+
+    .btn-one {
+        background-color: $color-one;
+        color: $color-text;
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .card-body {
+        text-align: center;
+
+    }
+
+    .card i {
+        border-color: $color-one;
+        color: $color-one;
+        font-size: 35px;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 2px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px; 
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto; 
+        float:left;    
+    }
+
+    .section-title {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 40px;
+    }
+    
+     .section-subtitle {
+        text-align: center;
+        font-style: italic;
+        font-size: 20px;
+        font-weight: lighter;
+        }
+
+
+
+    .card-image {
+        width: 100%;
+        height: 100%;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+
+        }
+    }
+
+    .portfolio{
+        background-color: $color-subtext;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .row {
+        padding-bottom: 10px;
+    }
+
+    .list li {
+        list-style-type: none;
+        display: inline-block;
+        
+        i {   
+        color: $color-text;
+        background-color: $color-two; 
+        font-size: 20px;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px; 
+        text-align: center;
+        display: inline-block;
+        }
+    }
+
+    .page-footer {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .services {
+        padding-bottom: 100px;
+    }
