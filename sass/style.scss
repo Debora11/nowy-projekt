@@ -23,10 +23,13 @@ body {
 }
 
 .navigation {
-    padding: 12px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     
     
     ul {
@@ -51,6 +54,7 @@ body {
 
         .splash-inner {
             margin: auto;
+            position: absolute;
             img {
                 width: 100%;
                 height: 100%;
@@ -86,9 +90,8 @@ body {
         font-size: 20px;
     }
 
-    .card-body {
-        text-align: center;
-
+    .card {
+        display: flex;
     }
 
     .card i {
@@ -101,20 +104,14 @@ body {
         width: 70px;
         height: 70px;
         line-height: 70px; 
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto; 
-        float:left;    
     }
 
     .section-title {
-        text-align: center;
         text-transform: uppercase;
         font-size: 40px;
     }
     
      .section-subtitle {
-        text-align: center;
         font-style: italic;
         font-size: 20px;
         font-weight: lighter;
