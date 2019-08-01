@@ -23,6 +23,7 @@ body {
 }
 
 .navigation {
+    padding-top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,10 +41,13 @@ body {
         li {
         display: inline-block;
         margin-right: 36px;
+        font-family: $font-header;
+        
         
             a {
             text-decoration: none;
-            font-size: 16px;                    
+            font-size: 16px;
+            color: $color-text;                   
             }
         }
     }
@@ -51,21 +55,24 @@ body {
     
 .splash {
     display: flex;
-    min-height: 500px;
-
+    min-height: 600px;
+    background: url('https://i.postimg.cc/15SXxYnP/black-and-white-cases-cigarette-238230.jpg');
+    background-size: cover;
+    color: $color-text;
+    text-align: center;
     .splash-inner {
         margin: auto;
-        position: absolute;
-        img {
-            width: 100%;
-             height: 100%;
-        }
     }
 }
 
     .page-subtitle {
         text-transform: uppercase;
-        font-size: 50px; 
+        font-size: 70px; 
+    }
+
+    .page-title {
+        font-size: 40px;
+        font-style: italic; 
     }
 
     .btn {
@@ -89,10 +96,12 @@ body {
         color: $color-text;
         text-transform: uppercase;
         font-size: 20px;
+        border-color: $color-one;
     }
 
-    .card {
-        display: flex;
+    .golden {
+        font-style: italic;
+        color: $color-one;
     }
 
     .card i {
@@ -137,6 +146,8 @@ body {
         background-color: $color-subtext;
         padding-top: 60px;
         padding-bottom: 60px;
+        display: flex;
+        text-align: center;
     }
 
     .row {
@@ -150,11 +161,13 @@ body {
         a {   
         color: $color-text;
         background-color: $color-two; 
-        font-size: 5px;
+        font-size: 20px;
         border-radius: 50%;
         height: 40px;
         width: 40px; 
-        line-height: 1.8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         }
     }
 
@@ -164,5 +177,8 @@ body {
     }
 
     .services {
-        padding-bottom: 100px;
+        padding-bottom: 96px;
+        padding-top: 80px;
+        display: flex;
+        text-align: center;
     }
