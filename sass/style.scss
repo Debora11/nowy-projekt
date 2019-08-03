@@ -42,7 +42,14 @@ body {
         display: inline-block;
         margin-right: 36px;
         font-family: $font-header;
-        
+
+        &.golden {
+            font-style: italic;
+
+            a {
+                color: $color-one;
+            }
+        }
         
             a {
             text-decoration: none;
@@ -97,14 +104,6 @@ body {
         text-transform: uppercase;
         font-size: 20px;
         border-color: $color-one;
-    }
-
-    .golden {
-        font-style: italic;
-
-        a {
-        color: $color-one;
-        }
     }
 
     .card i {

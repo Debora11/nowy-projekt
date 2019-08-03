@@ -42,6 +42,14 @@ body {
   font-family: "Yeseva One", cursive;
 }
 
+.navigation ul li.golden {
+  font-style: italic;
+}
+
+.navigation ul li.golden a {
+  color: #f6b93b;
+}
+
 .navigation ul li a {
   text-decoration: none;
   font-size: 16px;
@@ -94,14 +102,6 @@ body {
   text-transform: uppercase;
   font-size: 20px;
   border-color: #f6b93b;
-}
-
-.golden {
-  font-style: italic;
-}
-
-.golden a {
-  color: #f6b93b;
 }
 
 .card i {
