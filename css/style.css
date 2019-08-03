@@ -98,6 +98,9 @@ body {
 
 .golden {
   font-style: italic;
+}
+
+.golden a {
   color: #f6b93b;
 }
 
@@ -168,6 +171,7 @@ body {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
+  text-decoration: none;
 }
 
 .page-footer {

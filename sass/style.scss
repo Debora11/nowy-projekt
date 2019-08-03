@@ -101,7 +101,10 @@ body {
 
     .golden {
         font-style: italic;
+
+        a {
         color: $color-one;
+        }
     }
 
     .card i {
@@ -168,6 +171,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        text-decoration: none;
         }
     }
 
